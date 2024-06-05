@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'PixelFont';
+    src: url("Resources/fonts/SmallPixelFont/font.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'PixelTittles';
+    src: url("Resources/fonts/TittlesPixelFont/font.ttf") format('truetype');
+}
+
+html, body, header {
+    user-select: none;
+    cursor: url('resources/img/objects/cursors/Red_Arrow.png'), auto;
+}
+
+a, input {
+    cursor: url('resources/img/objects/cursors/Blue_Arrow.png'), auto;
+}
+
+p,
+input,
+h2,
+h3 {
+    font-family: 'PixelFont', sans-serif;
+    text-shadow: 2px 2px 2px black;
+}
+
+h1, a {
+    text-shadow: 3px 3px 2px black;
+    font-family: 'PixelTittles', sans-serif;
+}
